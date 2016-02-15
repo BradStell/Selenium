@@ -1,0 +1,13 @@
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\chromedriver.exe
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\chromedriver-license.txt
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\SeleniumFirst.exe.config
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\SeleniumFirst.exe
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\SeleniumFirst.pdb
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\nunit.framework.dll
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\WebDriver.dll
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\nunit.framework.xml
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\WebDriver.xml
+C:\Brad\SeleniumFirst\SeleniumFirst\obj\Debug\SeleniumFirst.exe
+C:\Brad\SeleniumFirst\SeleniumFirst\obj\Debug\SeleniumFirst.pdb
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\WebDriver.Support.dll
+C:\Brad\SeleniumFirst\SeleniumFirst\bin\Debug\WebDriver.Support.xml
