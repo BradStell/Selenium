@@ -36,8 +36,25 @@ namespace SeleniumFirst
 
 
         // Other methods for out actions
+        public void FillUserForm(string initial,  string firstName, string middleName)
+        {
+            txtInitial.EnterTextInTextBox(initial);
+            txtFirstName.EnterTextInTextBox(firstName);
+            txtMiddleName.EnterTextInTextBox(middleName);
+            btnSave.Clicks();
+
+            //SeleniumSetMethods.EnterTextInTextBox(txtInitial, initial);
+            //SeleniumSetMethods.EnterTextInTextBox(txtFirstName, firstName);
+            //SeleniumSetMethods.EnterTextInTextBox(txtMiddleName, middleName);
+            //SeleniumSetMethods.Click(btnSave);
 
 
 
+
+            //txtInitial.SendKeys(initial);
+            //txtFirstName.SendKeys(firstName);
+            //txtMiddleName.SendKeys(middleName);
+            //btnSave.Click();
+        }
     }
 }

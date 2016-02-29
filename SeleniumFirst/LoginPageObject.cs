@@ -35,13 +35,16 @@ namespace SeleniumFirst
             // Login
 
             // Username
-            txtUserName.SendKeys(userName);
+            txtUserName.EnterTextInTextBox(userName);
 
             // Password
-            txtPassword.SendKeys(password);
+            txtPassword.EnterTextInTextBox(password);
 
             // Click Login button
-            btnLogin.Click();
+            btnLogin.Clicks();
+
+            // Return the next page object
+            return new EAPageObject();
         }
     }
 }

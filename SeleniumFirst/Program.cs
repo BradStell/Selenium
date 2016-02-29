@@ -21,24 +21,23 @@ namespace SeleniumFirst
         [SetUp]
         public void Initialize()
         {
-            PropertiesCollection.driver = new ChromeDriver(@"C:\Users\Brad\Programming\Selenium\");
+            PropertiesCollection.driver = new ChromeDriver(@"C:\Users\Bradley\Programming\Selenium\");
 
             // Nav to Google page
-            PropertiesCollection.driver.Navigate().GoToUrl("http://executeautomation.com/demosite/index.html?UserName=&Password=&Login=Login");
+            PropertiesCollection.driver.Navigate().GoToUrl("http://executeautomation.com/demosite/Login.html");
             Console.WriteLine("Opened URL");
         }
 
         [Test]
         public void ExecuteTest()
         {
+            // Login to application
+            LoginPageObject pageLogin = new LoginPageObject();
+            EAPageObject pageEA = pageLogin.Login("Execute", "automation");
 
-            // Initialize the page by calling its reference
-            EAPageObject page = new EAPageObject();
+            pageEA.FillUserForm("Initial", "FirstName", "MidleName");
 
-            page.txtInitial.SendKeys("baller status");
-
-            page.btnSave.Click();
-
+            
 
             //// Title drop down
             //SeleniumSetMethods.SelectDropDown("TitleId", "Mr.", PropertyType.Id);
@@ -52,6 +51,12 @@ namespace SeleniumFirst
 
             //// Click Save button
             //SeleniumSetMethods.Click("Save", PropertyType.Name);
+        }
+
+        [Test]
+        public void Test2()
+        {
+            Console.WriteLine("In Test 2");
         }
 
         [TearDown]
